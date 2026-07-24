@@ -1,79 +1,47 @@
-# Gradient Descent from Scratch
+# Gradient Descent
 
-A step-by-step implementation of Gradient Descent for Linear Regression using Python and NumPy. This project demonstrates how model parameters are optimized iteratively to minimize the Mean Squared Error (MSE) loss function.
+A collection of projects implementing gradient descent from scratch using NumPy to understand the mathematics behind machine learning optimization.
 
-## Overview
+## Projects
 
-Gradient Descent is one of the fundamental optimization algorithms used in Machine Learning. Instead of relying on high-level libraries, this project focuses on understanding the mathematics behind parameter optimization by implementing the algorithm from scratch.
+### 1. Gradient Descent Step by Step
 
-## Features
+A beginner-friendly notebook explaining gradient descent from first principles.
 
-- Step-by-step implementation of Gradient Descent
-- Synthetic regression dataset generation
-- Data visualization using Matplotlib
-- Parameter updates through iterative optimization
-- Convergence towards the optimal regression line
-- Comparison with Scikit-learn's Linear Regression model
+**Topics Covered**
+- Cost Function
+- Mean Squared Error (MSE)
+- Partial Derivatives
+- Gradient Computation
+- Parameter Updates
+- Learning Rate
+- Convergence Visualization
+
+---
+
+### 2. Student Score Predictor
+
+A complete implementation of Multiple Linear Regression trained using Gradient Descent without relying on machine learning libraries.
+
+**Features**
+- Multiple Linear Regression from scratch
+- Vectorized NumPy implementation
+- Mean Squared Error loss
+- Gradient Descent optimization
+- Cost vs Epoch visualization
+- Actual vs Predicted comparison
+- Evaluation using MSE and R² Score
+- Validation against `sklearn.linear_model.LinearRegression`
+
+---
 
 ## Tech Stack
 
-**Languages**
-
 - Python
-
-**Libraries**
-
 - NumPy
 - Matplotlib
-- Scikit-learn
+- Scikit-learn (used only for comparison)
 
-**Tools**
+## Repository Goal
 
-- Jupyter Notebook
-- Git
-- GitHub
-
-## Concepts Covered
-
-- Linear Regression
-- Mean Squared Error (MSE)
-- Cost Function
-- Gradient Descent
-- Partial Derivatives
-- Learning Rate
-- Parameter Optimization
-- Model Convergence
-
-## Project Structure
-
-```text
-gradient-descent/
-│
-├── gradient_descent_step_by_step.ipynb
-└── README.md
-```
-
-## Learning Outcomes
-
-Through this project, I gained a deeper understanding of:
-
-- How Gradient Descent updates model parameters iteratively
-- The role of the learning rate in optimization
-- The mathematics behind gradient-based optimization
-- Implementing machine learning algorithms from scratch
-
-## Future Improvements
-
-- Batch Gradient Descent
-- Stochastic Gradient Descent (SGD)
-- Mini-Batch Gradient Descent
-- Animated convergence visualization
-- Polynomial Regression using Gradient Descent
-
-## Author
-
-**Parth Saha**
-
-Electronics & Communication Engineering Undergraduate
-
-Competitive Programming • Machine Learning • Mathematics
+This repository focuses on understanding how Gradient Descent works by implementing machine learning algorithms from scratch instead of treating them as black boxes.
